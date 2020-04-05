@@ -38,8 +38,8 @@ for n in range(len(items)):
         while index < len(listofitems) - 1:
             newlist = merge(listofitems[index], listofitems[index + 1])
             #once merged delete
-            del listofitems[index + 1]
+            del listofitems[index + 1 ]
 
-#output
+#output 
 for index in range(0, len(newlist)):
     print(newlist[index])
