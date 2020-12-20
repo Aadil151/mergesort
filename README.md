@@ -1,2 +1,3 @@
 # mergesort
-merge sort
+A simple merge sort created in python
+
